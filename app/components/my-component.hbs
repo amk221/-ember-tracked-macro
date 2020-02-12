@@ -1,0 +1,9 @@
+foo: {{this.foo}}<br>
+foocp: {{this.foocp}}<br>
+foomacro: {{this.foomacro}}<br>
+foogetter: {{this.foogetter}}<br>
+foogettermacro: {{this.foogettermacro}}<br>
+
+<br>
+
+<button {{on "click" (fn this.setFoo true)}}>Set foo</button>
